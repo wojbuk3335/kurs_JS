@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS od podstaw</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <h2>Koszyk</h2>
+
+  <table class="card-table">
+    <thead>
+      <tr>
+        <th>Kurs</th>
+        <th>Ilość</th>
+        <th>Cena</th>
+      </tr>
+    </thead>
+    <tbody id="table-items">
+
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2" style="text-align: right;"><b>Razem:</b></td>
+        <td><b id="total"></b></td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <p class="discount hidden" id="discount" >Zniżka: <b id="discount-amount">0</b>zł</p>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
